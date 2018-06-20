@@ -1,6 +1,9 @@
 # Ultimate Data Science Take Home Challenge Sample
 A practice challenge for the DS interview process
 ## Part 1 ‑ Exploratory data analysis
+
+[Part 1 - EDA](https://github.com/olsenben/Ultimate-data-science-take-home-challenge-sample/blob/master/Pt-1-ultimate-data-science-challenge.ipynb)
+
 The attached logins.json file contains (simulated) timestamps of user logins in a particular geographic location. Aggregate these login counts based on 15minute time intervals, and visualize and describe the resulting time series of login counts in ways that best characterize the underlying patterns of the demand. Please report/illustrate important features of the demand, such as daily cycles. If there are data quality issues, please report them.
 
 ## Part 2 ‑ Experiment and metrics design
@@ -46,6 +49,8 @@ Since it is know that the cities have different circadian rhythms, it would be p
 
 ## Part 3 ‑ Predictive modeling
 
+[Part 3 - Modeling](https://github.com/olsenben/Ultimate-data-science-take-home-challenge-sample/blob/master/Pt-3-ultimate-data-science-challenge.ipynb)
+
 Ultimate is interested in predicting rider retention. To help explore this question, we have
 provided a sample dataset of a cohort of users who signed up for an Ultimate account in
 January 2014. The data was pulled several months later; we consider a user retained if they
@@ -66,18 +71,18 @@ Include any key indicators of model performance.
 improve its longterm
 rider retention (again, a few sentences will suffice).
 ### Data description
-● city: city this user signed up in
-● phone: primary device for this user
-● signup_date: date of account registration; in the form ‘YYYY MM DD’
-● last_trip_date: the last time this user completed a trip; in the form ‘YYYY MM DD’
-● avg_dist: the average distance in miles per trip taken in the first 30 days after signup
-● avg_rating_by_driver: the rider’s average rating over all of their trips
-● avg_rating_of_driver: the rider’s average rating of their drivers over all of their trips
-● surge_pct: the percent of trips taken with surge multiplier > 1
-● avg_surge: The average surge multiplier over all of this user’s trips
-● trips_in_first_30_days: the number of trips this user took in the first 30 days after
+* city: city this user signed up in
+* phone: primary device for this user
+* signup_date: date of account registration; in the form ‘YYYY MM DD’
+* last_trip_date: the last time this user completed a trip; in the form ‘YYYY MM DD’
+* avg_dist: the average distance in miles per trip taken in the first 30 days after signup
+* avg_rating_by_driver: the rider’s average rating over all of their trips
+* avg_rating_of_driver: the rider’s average rating of their drivers over all of their trips
+* surge_pct: the percent of trips taken with surge multiplier > 1
+* avg_surge: The average surge multiplier over all of this user’s trips
+* trips_in_first_30_days: the number of trips this user took in the first 30 days after
 signing up
-● ultimate_black_user: TRUE if the user took an Ultimate Black in their first 30 days;
+* ultimate_black_user: TRUE if the user took an Ultimate Black in their first 30 days;
 FALSE otherwise
-● weekday_pct: the percent of the user’s trips occurring during a weekday
+* weekday_pct: the percent of the user’s trips occurring during a weekday
 
