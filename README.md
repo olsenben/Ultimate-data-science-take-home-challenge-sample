@@ -19,11 +19,15 @@ To measure the success of the experiment, there must be a metric which accuratel
 Exclusivity ratio - measure of tendency to serve one city exclusively
 
 Let X represent the city in which a driver has the most trips that start and end in that city.
+
 Let Y represent the city in which a driver has the least trips that start and end in that city.
 
 A = number of trips that start and end in X city
+
 B = number of trips that start in X city and end in Y city
+
 C = number of trips that start in Y city and end in X city
+
 D = number of trips that start and end in Y city
 
 Exclusivity ratio = (A)/(A + B + C + D)
