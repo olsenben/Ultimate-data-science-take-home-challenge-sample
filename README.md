@@ -1,4 +1,4 @@
-# Ultimate-data-science-take-home-challenge-sample
+# Ultimate Data Science Take Home Challenge Sample
 a practice challenge for the DS interview process
 ## Part 1 ‑ Exploratory data analysis
 The attached logins.json file contains (simulated) timestamps of user logins in a particular geographic location. Aggregate these login counts based on 15minute time intervals, and visualize and describe the resulting time series of login counts in ways that best characterize the underlying patterns of the demand. Please report/illustrate important features of the demand, such as daily cycles. If there are data quality issues, please report them.
